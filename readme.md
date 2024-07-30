@@ -2,6 +2,8 @@
 
 This project implements a lightweight Command and Control (C2) system using the Telegram API. It comprises two main components: the Agent Bot and the Client Bot. The Agent Bot acts as the controller, while the Client Bot acts as the target device. The system leverages Telegram channels for communication, maintaining simplicity and minimizing resource usage.
 
+What makes this implementation unique is that it supports multiple clients and client code is much lighter compared to approaches that implement telegram command handling (`/{command}`) in the client.
+
 Inspired by Pysilon Discord RAT 
 
 ## Prerequisites
